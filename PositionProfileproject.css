@@ -1,0 +1,43 @@
+/*
+  In this example we will create a simple profile-icon. This is a neat
+  UI widget that will allow us to explore positioning, particularly     relative and absolute positioning.
+*/
+
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #252525;
+}
+
+/* Your CSS Here 👇 */
+#circle {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+  border:solid white 3px;
+background-image:
+url("https://images.squarespace-cdn.com/content/v1/5b00c4a296e76fb4bb862e90/1570561470200-BOXH11MQCSYAIUB5GZT9/ke17ZwdGBToddI8pDm48kFmfxoboNKufWj-55Bgmc-J7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iXS6XmVv7bUJ418E8Yoc1hjuviiiZmrL38w1ymUdqq4JaGeFUxjM-HeS7Oc-SSFcg/evyn-0001.jpg?format=2500w");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+#on {
+  background: #00FF00;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  position: relative;
+  bottom:110px;
+  right: 58px;
+  }
